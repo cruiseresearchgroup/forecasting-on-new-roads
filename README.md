@@ -1,8 +1,12 @@
-# forecasting-on-new-roads
+# Traffic Forecasting on New Roads Unseen in the Training Data Using Spatial Contrastive Pre-Training
 
-Code for this paper: https://arxiv.org/abs/2305.05237
+This is the official PyTorch implementation of the following paper: Traffic Forecasting on New Roads Unseen in the Training Data Using Spatial Contrastive Pre-Training. In ECML PKDD SI DAMI. [[ArXiv](https://arxiv.org/abs/2302.09956)].
 
-more details coming soon.
+If you are interested in traffic forecasting, check out my collection of traffic forecasting papers: https://github.com/aprbw/traffic_prediction.
+
+# Abstract
+
+New roads are being constructed all the time. However, the capabilities of previous deep forecasting models to generalize to new roads not seen in the training data (unseen roads) are rarely explored. In this paper, we introduce a novel setup called a spatio-temporal (ST) split to evaluate the models' capabilities to generalize to unseen roads. In this setup, the models are trained on data from a sample of roads, but tested on roads not seen in the training data. Moreover, we also present a novel framework called Spatial Contrastive Pre-Training (SCPT) where we introduce a spatial encoder module to extract latent features from unseen roads during inference time. This spatial encoder is pre-trained using contrastive learning. During inference, the spatial encoder only requires two days of traffic data on the new roads and does not require any re-training. We also show that the output from the spatial encoder can be used effectively to infer latent node embeddings on unseen roads during inference time. The SCPT framework also incorporates a new layer, named the spatially gated addition (SGA) layer, to effectively combine the latent features from the output of the spatial encoder to existing backbones. Additionally, since there is limited data on the unseen roads, we argue that it is better to decouple traffic signals to trivial-to-capture periodic signals and difficult-to-capture Markovian signals, and for the spatial encoder to only learn the Markovian signals. Finally, we empirically evaluated SCPT using the ST split setup on four real-world datasets. The results showed that adding SCPT to a backbone consistently improves forecasting performance on unseen roads. More importantly, the improvements are greater when forecasting further into the future.
 
 # Requirements
 
@@ -21,6 +25,10 @@ numpy==1.20.0
 pandas==1.2.4
 ```
 
+# Data
+
+
+
 # Run
 
 ```
@@ -38,4 +46,8 @@ METRLA `# 6: dataset` \
 1 `# 11: is_SGA`
 ```
 
+# Cite
 
+Harvard:
+
+BibTex:
