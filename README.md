@@ -29,6 +29,7 @@ pandas==1.2.4
 
 # Data
 
+The datasets METR-LA, PeMS-BAY, and PeMS-D7(m) were obtained from the github repo of a recent benchmark study: https://github.com/deepkashiwa20/DL-Traff-Graph .
 
 
 # Run
