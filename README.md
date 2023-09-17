@@ -66,6 +66,11 @@ METRLA `# 6: dataset` \
 
 Harvard:
 
+```
+Prabowo, A., Xue, H., Shao, W., Koniusz, P., Salim, F. D., 2023.  Forecasting on New Roads Unseen in the Training Data Using Spatial Contrastive Pre-Training. Data Mining and Knowledge Discovery.
+```
+
+
 BibTex:
 
 ```
