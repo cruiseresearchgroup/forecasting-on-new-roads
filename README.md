@@ -29,9 +29,9 @@ pandas==1.2.4
 
 # Data
 
-The datasets METR-LA, PeMS-BAY, and PeMS-D7(m) were obtained from the github repo of a recent benchmark study: https://github.com/deepkashiwa20/DL-Traff-Graph .
+The datasets **METR-LA**, **PeMS-BAY**, and **PeMS-D7(m)** were obtained from the github repo of a recent benchmark study: https://github.com/deepkashiwa20/DL-Traff-Graph .
 
-The PeMS-11k (our own naming) is from the GP-DCRNN github repo: https://github.com/tanwimallick/graph_partition_based_DCRNN . Since this dataset is 1 year long, and we are only interested in the spatial generalization, we make a shorter version of this dataset and call it PeMS-11k(s). This is only 3 months long from Feburary 2018 to April 2018, inclusive.
+The PeMS-11k (our own naming) is from the GP-DCRNN github repo: https://github.com/tanwimallick/graph_partition_based_DCRNN . Since this dataset is 1 year long, and we are only interested in the spatial generalization, we make a shorter version of this dataset and call it **PeMS-11k(s)**. This is only 3 months long from Feburary 2018 to April 2018, inclusive.
 
 # Run
 
