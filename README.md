@@ -1,4 +1,4 @@
-# Traffic Forecasting on New Roads Unseen in the Training Data Using Spatial Contrastive Pre-Training
+# Traffic Forecasting on New Roads Unseen in the Training Data Using Spatial Contrastive Pre-Training (SCPT)
 
 ![Visual_abstract](/vizabs2.png) Our novel traffic forecasting framework, Spatial Contrastive Pre-Training (SCPT), enables accurate forecasts on new roads (orange) that were not seen during training.
 
