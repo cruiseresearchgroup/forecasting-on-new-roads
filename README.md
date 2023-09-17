@@ -31,6 +31,7 @@ pandas==1.2.4
 
 The datasets METR-LA, PeMS-BAY, and PeMS-D7(m) were obtained from the github repo of a recent benchmark study: https://github.com/deepkashiwa20/DL-Traff-Graph .
 
+The PeMS-11k (our own naming) is from the GP-DCRNN github repo: https://github.com/tanwimallick/graph_partition_based_DCRNN . Since this dataset is 1 year long, and we are only interested in the spatial generalization, we make a shorter version of this dataset and call it PeMS-11k(s). This is only 3 months long from Feburary 2018 to April 2018, inclusive.
 
 # Run
 
@@ -66,3 +67,13 @@ METRLA `# 6: dataset` \
 Harvard:
 
 BibTex:
+
+```
+@article{prabowo2023SCPT,
+  title={Traffic Forecasting on New Roads Unseen in the Training Data Using Spatial Contrastive Pre-Training},
+  author={Prabowo, Arian and Xue, Hao and Shao, Wei and Koniusz, Piotr, and Salim, Flora D.},
+  journal={Data Mining and Knowledge Discovery},
+  year={2023},
+  publisher={Springer}
+}
+```
