@@ -4,7 +4,7 @@
 
 This is the official PyTorch implementation of the following paper: Traffic Forecasting on New Roads Unseen in the Training Data Using Spatial Contrastive Pre-Training. In **ECML PKDD SI DAMI 2023**. [[ArXiv](https://arxiv.org/abs/2302.09956)] [[Poster](/ECML_PKDD_traffic_poster_v3.pdf)] [[Slides](/ECMLPKDD23_unseen_roads_slides_v3_noGIF.pdf)].
 
-If you are interested in traffic forecasting, check out my collection of traffic forecasting papers: https://github.com/aprbw/traffic_prediction.
+If you are interested in traffic forecasting, check out my collection of traffic forecasting papers: https://github.com/aprbw/traffic_prediction . Check also our previous paper, also focusing on node embeddings, but for spatial attention https://github.com/aprbw/G-SWaN/ .
 
 # Abstract
 
