@@ -2,7 +2,7 @@
 
 ![Visual_abstract](/vizabs2.png) Our novel traffic forecasting framework, Spatial Contrastive Pre-Training (SCPT), enables accurate forecasts on new roads (orange) that were not seen during training.
 
-This is the official PyTorch implementation of the following paper: Traffic Forecasting on New Roads Using Spatial Contrastive Pre-Training. In **ECML PKDD SI DAMI 2023**. [[ArXiv](https://arxiv.org/abs/2305.05237)] [[Poster](/ECML_PKDD_traffic_poster_v3.pdf)] [[Slides](/ECMLPKDD23_unseen_roads_slides_v3_noGIF.pdf)].
+This is the official PyTorch implementation of the following paper: [Traffic Forecasting on New Roads Using Spatial Contrastive Pre-Training](https://link.springer.com/article/10.1007/s10618-023-00982-0). In **ECML PKDD SI DAMI 2023**. [[ArXiv](https://arxiv.org/abs/2305.05237)] [[Poster](/ECML_PKDD_traffic_poster_v3.pdf)] [[Slides](/ECMLPKDD23_unseen_roads_slides_v3_noGIF.pdf)].
 
 If you are interested in traffic forecasting, check out my collection of traffic forecasting papers: https://github.com/aprbw/traffic_prediction . Check also our previous paper, also focusing on node embeddings, but for spatial attention https://github.com/aprbw/G-SWaN/ .
 
@@ -64,10 +64,9 @@ METRLA `# 6: dataset` \
 
 # Cite
 
-Harvard:
 
 ```
-Prabowo, A., Xue, H., Shao, W., Koniusz, P., Salim, F. D., 2023.  Forecasting on New Roads Unseen in the Training Data Using Spatial Contrastive Pre-Training. Data Mining and Knowledge Discovery.
+Prabowo, A., Xue, H., Shao, W. et al. Traffic forecasting on new roads using spatial contrastive pre-training (SCPT). Data Min Knowl Disc (2023). https://doi.org/10.1007/s10618-023-00982-0
 ```
 
 
