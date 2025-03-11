@@ -35,18 +35,6 @@ The PeMS-11k (our own naming) is from the GP-DCRNN github repo: https://github.c
 
 # Run
 
-Here are the explanations of the `.py` files:
-
-`pred_GWN_16_adpAdj.py` the main file that runs the experiment.
-
-`unseen_nodes.py` the spatiotemporal split.
-
-`GWN_SCPT_14_adpAdj.py` the model.
-
-`Metrics.py` metrics.
-
-`Utils.py` some utility functions.
-
 ```
 python3 ./pred_GWN_16_adpAdj.py \
 1 `# 1: IS_PRETRN` \
@@ -60,6 +48,34 @@ METRLA `# 6: dataset` \
 0.0001 `# 9: weight_decay` \
 1 `# 10: adp_adj` \
 1 `# 11: is_SGA`
+```
+
+Here are the explanations of the `.py` files:
+
+`pred_GWN_16_adpAdj.py` the main file that runs the experiment.
+
+`unseen_nodes.py` the spatiotemporal split.
+
+`GWN_SCPT_14_adpAdj.py` the model.
+
+`Metrics.py` metrics.
+
+`Utils.py` some utility functions.
+
+To run the baseline:
+```
+python3 ./pred_GWN_16_adpAdj.py \
+0 `# 1: IS_PRETRN` \
+.7 `# 2: R_TRN` \
+0 `# 3: IS_EPOCH_1` \
+42 `# 4: seed` \
+100 `# 5: TEMPERATURE`\
+METRLA `# 6: dataset` \
+42 `# 7: seed_ss  spatial split` \
+0 `# 8: IS_DESEASONED` \
+0.0001 `# 9: weight_decay` \
+0 `# 10: adp_adj` \
+0 `# 11: is_SGA`
 ```
 
 # Cite
